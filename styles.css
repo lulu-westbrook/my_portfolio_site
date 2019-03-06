@@ -6,9 +6,9 @@ margin-left: 20px;
 margin-right: 20px;
 }
 
-#aboutme {color:#9ebdab;}
+#aboutme {color:#9aaca1;}
 
-em.emphasis {color: red );}
+em.emphasis {color:rgb(133, 158, 144);}
 
 article {padding-top: 10px;
         padding-bottom: 30px;
@@ -25,8 +25,7 @@ article {padding-top: 10px;
 body {font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     background-color:rgb(37, 36, 36);
-    color: antiquewhite;
-}
+    color: antiquewhite}
 
 h1 {color:rgb(67, 94, 78);
     background-color:rgb(43, 42, 42);
@@ -40,8 +39,7 @@ h1 {color:rgb(67, 94, 78);
     padding-top:5px;
     padding-bottom:5px;
     border-radius: 10px;
-    text-shadow: 1px 1px black;
-}
+    text-shadow: 1px 1px black}
 
 h2 {color: rgb(67, 94, 78);
     text-shadow: 1.5px 1.5px black;
@@ -53,7 +51,6 @@ strong {font-weight:bold;
         text-shadow: 1px 1px black;}
 
 ul {list-style-type:circle; 
-
 }
 
 footer{background-color:antiquewhite;
