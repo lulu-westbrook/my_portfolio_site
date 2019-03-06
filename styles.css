@@ -1,43 +1,30 @@
 <style>
-header {color:antiquewhite;
-        font-variant:small-caps;
-        background-color: rgb(65, 63, 63);
-        text-shadow: 3px 3px black;
-        font-stretch:ultra-condensed;
-        font-size:xx-large;
-        text-align: center;
-        border-style: groove;
-        border-width:thin;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-left: 475px;
-        margin-right: 475px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        background-image: url("https://farm8.staticflickr.com/7834/46308379615_0a77f04b3b_z.jpg");
-        }
+header {}
      
 figure {float: left;
 margin-left: 20px;
 margin-right: 20px;
 }
 
-article {background-color:rgb(65, 63, 63);
-        padding-top: 10px;
-        padding-bottom: 50px;
+#aboutme {color:#9ebdab;}
+
+em.emphasis {color: red );}
+
+article {padding-top: 10px;
+        padding-bottom: 30px;
         padding-right: 15px;
         padding-left: 5px;
         margin-right: 100px;
         margin-left: 100px;
         text-align: left;
         border-radius: 30px;
-        background-image:url("https://farm8.staticflickr.com/7834/46308379615_0a77f04b3b_z.jpg");
-        background-repeat:unset}
+        background-size: 50%;
+        background-image: url("https://farm8.staticflickr.com/7834/46308379615_0a77f04b3b_z.jpg");
+        }
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight:lighter;
-    background-color:rgb(27, 27, 27);
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color:rgb(37, 36, 36);
     color: antiquewhite;
 }
 
@@ -56,8 +43,11 @@ h1 {color:rgb(67, 94, 78);
     text-shadow: 1px 1px black;
 }
 
-em {color:rgb(181, 209, 193);
-    text-shadow: 1.5px 1.5px black;}
+h2 {color: rgb(67, 94, 78);
+    text-shadow: 1.5px 1.5px black;
+    font-variant:small-caps;
+    padding-bottom: 0px;
+    margin-bottom:0px}
 
 strong {font-weight:bold;
         text-shadow: 1px 1px black;}
@@ -75,8 +65,8 @@ footer{background-color:antiquewhite;
         padding-bottom:10px;
         padding-right:5px;
         padding-left:5px;
-        margin-left: 550px;
-        margin-right: 550px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-top: 25px;
         margin-bottom: 25px;
         border-style:groove;
