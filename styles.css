@@ -1,19 +1,19 @@
 <style>
+
+/* When I remove this, it changes the style of my "about me" so I've left it in to retain the formatting */
 header {}
-     
+
 figure {float: left;
 margin-left: 20px;
 margin-right: 20px;
 }
 
 #aboutme {color:rgb(166, 180, 173);
-            background-color:rgb(7, 7, 7);
-    }
+    background-color:rgb(7, 7, 7);}
 
 em.emphasis {color:rgb(133, 158, 144);}
 
 /* CSS Grid here */
-
 .container_2 {
     grid-row: auto;
     grid-column: auto;
@@ -43,6 +43,9 @@ em.emphasis {color:rgb(133, 158, 144);}
 
 }
 
+.span {background-color:rgb(7, 7, 7);
+        }
+
 article {padding-top: 20px;
         padding-bottom: 25px;
         padding-right: 15px;
@@ -66,7 +69,7 @@ body {font-family: Georgia, 'Times New Roman', Times, serif;
 h1 {color:rgb(67, 94, 78);
     font-variant:small-caps;
     font-weight:400;
-    margin-bottom:-12px;
+    margin-bottom:12px;
     margin-left: 0px;
     margin-right: 1000px;
     padding-right:30px;
