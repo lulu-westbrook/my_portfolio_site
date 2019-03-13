@@ -1,21 +1,33 @@
 <style>
-header {text-align: center}
+header {}
      
 figure {float: left;
 margin-left: 20px;
 margin-right: 20px;
 }
 
-#aboutme {color:#9aaca1;}
+#aboutme {color:rgb(166, 180, 173);
+            background-color:rgb(7, 7, 7);
+    }
 
 em.emphasis {color:rgb(133, 158, 144);}
 
 /* CSS Grid here */
 
+.container_2 {
+    grid-row: auto;
+    grid-column: auto;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
 .container_1 {
-    height: 100%;
     display: grid;
-    grid-gap; 4px;
+    grid-gap: 5px;
     grid-template-columns: 300px auto;
     grid-template-areas: 
     "c t"
@@ -23,6 +35,7 @@ em.emphasis {color:rgb(133, 158, 144);}
 }
 
 .column {grid-area: c;
+    background-color: rgb(50, 50, 50);
 
 }
 
@@ -30,10 +43,11 @@ em.emphasis {color:rgb(133, 158, 144);}
 
 }
 
-article {padding-top: 10px;
-        padding-bottom: 30px;
+article {padding-top: 20px;
+        padding-bottom: 25px;
         padding-right: 15px;
         padding-left: 5px;
+        padding-top: 40px;
         margin-right: 100px;
         margin-left: 100px;
         margin-top: 20px;
@@ -63,7 +77,8 @@ h1 {color:rgb(67, 94, 78);
     text-shadow: 1px 1px black}
 
 h2 {color: rgb(67, 94, 78);
-    text-shadow: 1.5px 1.5px black;
+    font-weight: 525;
+    text-shadow: 1.5px 1.5px rgb(5, 5, 5);
     font-variant:small-caps;
     padding-bottom: 0px;
     margin-bottom:0px}
@@ -83,8 +98,8 @@ footer{background-color:antiquewhite;
         padding-bottom:10px;
         padding-right:5px;
         padding-left:5px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
         margin-top: 25px;
         margin-bottom: 25px;
         border-style:groove;
