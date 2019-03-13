@@ -6,3 +6,4 @@
 
 ![smallscreen](https://user-images.githubusercontent.com/36009383/54302924-d5232180-458f-11e9-86df-b1c911a5204c.jpg)
 
+![Responsive View](https://user-images.githubusercontent.com/36009383/54302936-d9e7d580-458f-11e9-8846-5a44288cb636.JPG)
