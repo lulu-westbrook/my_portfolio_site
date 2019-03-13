@@ -87,7 +87,8 @@ h2 {color: rgb(67, 94, 78);
     margin-bottom:0px}
 
 strong {font-weight:bold;
-        text-shadow: 1px 1px black;}
+        text-shadow: 1px 1px black;
+}
 
 ul {list-style-type:circle; 
 }
